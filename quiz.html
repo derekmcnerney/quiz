@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+      <title>Quiz</title>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet" href="static/css/main.css">
+</head>
+
+<body>
+
+
+
+      <h1>Quiz</h1>
+
+
+      <form id="quiz" name="quiz">
+            <p class="questions">What is 1 + 1</p>
+            <input id="question1" type="text" name="question1">
+            <div id="q2_wrap">
+                  <p class="questions">What is the main character of the Zelda series</p>
+                  <input type="radio" id="question2" name="question2" value="Zelda"> Zelda<br>
+
+
+                  <input type="radio" id="question2" name="question2" value="Link"> Link<br>
+            </div>
+            <div id="q3_wrap">
+                  <p class="questions">Where is Carman Sandeigo</p>
+                  <input type="radio" id="question3" name="question3" value="Who knows"> Who knows<br>
+                  <input type="radio" id="question3" name="question3" value="Right behind you"> Right behind you<br>
+            </div>
+            <br>
+            <div id="q4_wrap">
+                  <p class="questions">Who frammed Rodger Rabbit</p>
+                  <input type="radio" id="question4" name="question3" value="Jessica Rabbit"> Jessica Rabbit<br>
+
+
+                  <input type="radio" id="question4" name="question3" value="Himself"> Himself<br>
+                  <br>
+            </div>
+            <div id="q5_wrap">
+                  <p class="questions">Which is the first answer</p>
+                  <input type="radio" id="question5" name="question4" value="Two"> Two<br>
+
+
+                  <input type="radio" id="question5" name="question4" value="One"> One<br>
+                  <br>
+            </div>
+            <div id="q6_wrap">
+                  <p class="questions">Answer to the Universe</p>
+                  <input type="radio" id="question6" name="question5" value="LLL"> Life, Laugh, Love<br>
+
+
+                  <input type="radio" id="question6" name="question5" value="42"> 42<br>
+                  <br>
+                  <div id="q7_wrap">
+                        <p class="questions">The answer is yes</p>
+                        <input type="radio" id="question7" name="question6" value="Yes"> Yes<br>
+
+
+                        <input type="radio" id="question7" name="question6" value="No"> No<br>
+                        <br>
+                  </div>
+                  <div id="q8_wrap">
+                        <p class="questions">Simon says jump</p>
+                              <input type="radio" id="question8" name="question7" value="Nothing1"> Do nothing <br>
+
+
+                              <input type="radio" id="question8" name="question7" value="Jump"> Jump<br>
+                              <br>
+                              <div id="q9_wrap">
+                                    <p class="questions">Wave</p>
+                                    <input type="radio" id="question9" name="question8" value="Wave"> Wave<br>
+
+
+                                    <input type="radio" id="question9" name="question8" value="Nothing2"> Do nothing
+                                    <br>
+                                    <br>
+                              </div>
+                              <div id="q10_wrap">
+                                    <p class="questions">Alphabet</p>
+                                    <input type="radio" id="question10" name="question9" value="Alphabet1">
+                                    Abcdefghijklmnopqrstuvwxyz<br>
+
+
+                                    <input type="radio" id="question10" name="question9" value="Alphabet2">
+                                    Abcdefghljkimnopqrstuvwxyz<br>
+                                    <br>
+                              </div>
+                              <div id="q11_wrap">
+                                    <p class="questions">My neck, My back</p>
+                                    <input type="radio" id="question11" name="question10" value="Kitty"> My Pussy<br>
+
+
+                                    <input type="radio" id="question11" name="question10" value="Crack"> My Crack<br>
+                              </div>
+
+                              <input id="button" type="button" value="Finish" onclick="check();">
+      </form>
+
+      <div id="after_submit">
+            <p id="number_correct"></p>
+            <p id="message"></p>
+      </div>
+
+
+
+
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+      <script src="./static/js/quiz.js"></script>
+</body>
+
+</html>
